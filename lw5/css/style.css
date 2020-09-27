@@ -1,4 +1,4 @@
-﻿.container
+.container
 {
 	display: flex;
 }
@@ -13,7 +13,6 @@
 {
 	width: 45%;
 }
-
 .right_block
 {
 	width: 55%;
@@ -63,7 +62,8 @@ div.quote
 }
 
 
-.list_tit_ul
+.list_tit_ul,
+.list_tit_ol
 {
 	display: block;
 	width: 330px;
@@ -77,40 +77,31 @@ div.quote
 
 .list_tit_ol
 {
-	display: block;
-	width: 330px;
-	color: #45C3AA;
-	margin-left: 472px;
-	margin-top: 46px;
-	font: 600 24px/1 Open Sans, sans-serif;
-	font-stretch: normal;
-	margin-block-end: 0; 
+	margin-top: 46px; 
+}
+
+ul,
+ol
+{
+	margin-left: 451px;
+	margin-top: 15px;
+	width: 309px;
+	color: #555;
+	font: 19px/1.9 Georgia, serif;
 }
 
 ul
 {
-	width: 309px;
-	color: #555;
 	margin-left: 493px;
 	margin-top: 16px;
 	padding-left: 0;
-	font: 19px/1.9 Georgia, serif;
-}
-
-ol
-{
-	width: 309px;
-	color: #555;
-	margin-left: 451px;
-	margin-top: 15px;
-	font: 19px/1.9 Georgia, serif;
 }
 
 .head_name
 {
 	color: #333;
 	width: 560px;
-	margin-top: 42px; 
+	margin-top: 42px; /*42*/
 	margin-left: 12.5px;
 	font: 700 48px/1 Open Sans, sans-serif;
 	margin-block-end: 0; 
@@ -126,7 +117,7 @@ ol
 	background: #45C3AA;
 }
 
-.vita  /*Биография*/ 
+.vita 
 {
 	color: #555;
 	width: 560px;
